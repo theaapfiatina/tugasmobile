@@ -1,11 +1,12 @@
-import 'Person.dart';
-
-extension HelloOnPerson on Person {
-  void printHello() => print("Hello $name");
+class User {
+  String? username;
+  String? name;
+  String? email;
 }
 
 void main() {
-  Person person = Person();
-
-  person.printHello();
+  var user = User();
+  print(user.username = "thea");
+  print(user.name = "Thea Apfia Tina");
+  print(user.email = "thea@gmail.com");
 }

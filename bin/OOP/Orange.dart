@@ -15,6 +15,6 @@ void main() {
   var orange2 = Orange();
   orange2.quantity = 10;
 
-  var orange3 = Orange();
+  var orange3 = orange1 + orange2;
   print(orange3.quantity);
 }
