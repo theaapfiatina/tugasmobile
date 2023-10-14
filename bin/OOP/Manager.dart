@@ -3,7 +3,7 @@ import 'Person.dart';
 class Manager extends Person {
   String? division;
   @override
-  void sayHello() {
+  void sayHello(String name) {
     print("Hello");
   }
 }
@@ -13,5 +13,5 @@ void main() {
   manager.name = "Kirana";
   print(manager.name);
   print(manager.country);
-  manager.sayHello();
+  manager.sayHello('Kirana');
 }
